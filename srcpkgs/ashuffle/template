@@ -1,6 +1,6 @@
 # Template file for 'ashuffle'
 pkgname=ashuffle
-version=3.6.0
+version=3.7.0
 revision=1
 build_style=meson
 configure_args="--buildtype=release -Dtests=enabled -Dunsupported_use_system_absl=true
@@ -13,7 +13,7 @@ maintainer="Kartik Singh <kartik.ynwa@gmail.com>"
 license="MIT"
 homepage="https://github.com/Joshkunz/ashuffle"
 distfiles="https://github.com/joshkunz/ashuffle/archive/v${version}.tar.gz"
-checksum=763f23ca414794d9c1d9a43f48f902639e78c472282f73247f348ac5ff96c299
+checksum=6c2565d488ec767a782132ae948eae9002fe2a5e2aaa7656297a822670754452
 
 post_install() {
 	vlicense LICENSE
